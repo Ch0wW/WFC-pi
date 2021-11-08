@@ -1,6 +1,9 @@
 # WFC-pi
 
-WFC-pi is a small project based on Raspberry Pi OS Lite that provides a very simple headless setup to play 
+WFC-pi is a small project based on Raspberry Pi OS Lite that provides a very simple headless setup to replay online with the Nintendo DS / Nintendo Wii/vWii.
+
+# Downloads
+The files can be downloaded @ http://dl.baseq.fr/wfcpi/ . 7Zip or WinRAR is required to extract the archive.
 
 # Features
 * Creates a hidden guest access point (`wfcpi`) that is isolated with the rest of your network.
@@ -34,3 +37,7 @@ WFC-pi is installed the exact same way as any image. We heavily recommand you us
 Please check the Wiki to check the compatibility list, both for the WiFi and Ethernet drivers.
 
 Additionally, if your device isn't listed, please create an issue!
+
+# ToDo
+* Find a way to heaviliy compress or reduce the total size of the distribution
+* Homepass compatiblity for Nintendo 3DS?
