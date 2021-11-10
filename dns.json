@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "dns": 
+  [
+    "164.132.44.106",
+    "1.1.1.1"
+  ],
+  "redirections": 
+[
+  {
+    "address":"flipnote.hatena.com",
+    "newip": "104.248.0.110"
+  },
+  {
+    "address":"ugomemo.hatena.ne.jp",
+    "newip": "104.248.0.110"
+  },
+  {
+    "address":"ts.sudomemo.net",
+    "newip": "67.227.185.125"
+  },
+]
+}
