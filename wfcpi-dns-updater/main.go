@@ -86,7 +86,7 @@ func main() {
 		if isIPValid(ip) {
 			buffer = append(buffer, fmt.Sprintf("server=%s\n", ip))
 		} else {
-			panic(fmt.Sprintf("Error parsing %s. That's an error from the file, and not from you... Exiting", ip))
+			panic(fmt.Sprintf("%s seems like an invalid IP. That's an error from the file, and not from you... Exiting", ip))
 		}
 		fmt.Printf("server=%s\n", ip)
 	}

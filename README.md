@@ -1,6 +1,6 @@
 # WFC-pi
 
-WFC-pi is a small project based on Raspberry Pi OS Lite that provides a very simple headless setup to replay online with the Nintendo DS / Nintendo Wii/vWii.
+WFC-pi is a small project based on Raspberry Pi OS Lite that provides a very simple headless AP that can be used to replay online with the Nintendo DS / Nintendo Wii/vWii.
 
 You can also use that access point to play WiiU / N3DS / Switch online without compatibility or connection issues.
 
@@ -48,11 +48,11 @@ If you want to manually add WFC-pi to your local image, simply execute the scrip
 
 WFC-pi includes some tools and their sources used in the image provided:
 
-* wfcpi-dns-updater : Automatic DNS updater
+* **wfcpi-dns-updater** : Automatic DNS updater written in golang
 
 # ToDo
-* Find a way to heaviliy compress or reduce the total size of the distribution
-* Find a way to include sudomemo support while also being able to connect to Wiimmfi
-* A Web interface?
-* (when it's done) Streetpass2 compatiblity for Nintendo 3DS?
-* (when it's done) Support for Activision's Wii's Masterserver replacement?
+- [ ] Find a way to heaviliy compress or reduce the total size of the distribution
+- [ ] Find a way to include sudomemo support while also being able to connect to Wiimmfi
+- [ ] A Web interface?
+- [ ] (when it's done) Streetpass2 compatiblity for Nintendo 3DS?
+- [ ] (when it's done) Support for Activision's Wii's Masterserver replacement?
